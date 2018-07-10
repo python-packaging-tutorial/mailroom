@@ -3,7 +3,7 @@
 """
 This is about as simple a setup.py as you can have
 
-But its enough to support the mailroom app
+But it's enough to support the mailroom app
 
 """
 
@@ -35,5 +35,12 @@ setup(
     package_data={'mailroom': ['data/sample_data.json']},
     license='LICENSE.txt',
     description='Simple app for managing donations for a non-profit',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    classifiers=(
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: Attribution Assurance License",
+        "Operating System :: OS Independent",
+    ),
 )
+
