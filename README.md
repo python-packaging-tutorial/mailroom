@@ -10,5 +10,24 @@ This package:
 * Has a command line interface script
 * Has tests
 
-So it serves as an example of a simple, but not too simple
+(Python 3)
+
+It serves as an example of a simple, but not too simple python package.
+
+You should be able to install it:
+
+`python setup.py install`
+
+or in develop mode:
+
+`python setup.py develop`
+
+or with pip in editable mode:
+
+`pip install -e ./`
+
+
+
+
+
 
